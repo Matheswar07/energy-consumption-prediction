@@ -126,13 +126,13 @@ The current results are:
 
 |---|---:|
 
-| MAE | 0.23 kWh |
+| MAE | 0.20 kWh |
 
-| RMSE | 0.29 kWh |
+| RMSE | 0.24 kWh |
 
-| R² Score | 0.9996 |
+| R² Score | 0.9995 |
 
-| MAPE | 0.61% |
+| MAPE | 0.58% |
 
 
 
@@ -228,13 +228,13 @@ For a selected period of 30 days, the current program produced:
 
 \- Actual consumption: 1203.38 kWh
 
-\- Predicted consumption: 1204.74 kWh
+\- Predicted consumption: 1204.62 kWh
 
 \- Actual estimated bill: ₹6236.32
 
-\- Predicted estimated bill: ₹6244.86
+\- Predicted estimated bill: ₹6244.12
 
-\- Difference: ₹8.54
+\- Difference: ₹7.80
 
 
 

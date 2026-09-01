@@ -2,7 +2,7 @@ Linear Regression Model Evaluation
 ----------------------------------
 Training samples: 79
 Testing samples: 20
-MAE: 0.23 kWh
-RMSE: 0.29 kWh
-R2: 0.9996
-MAPE: 0.61%
+MAE: 0.20 kWh
+RMSE: 0.24 kWh
+R2: 0.9995
+MAPE: 0.58%
