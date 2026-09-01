@@ -15,14 +15,8 @@ data = data.dropna()
 
 print("Number of usable rows:", len(data))
 
-X = data[
-    [
-        "Previous Day kWh",
-        "Average Voltage V",
-        "Average Current A"
-    ]
-]
 
+X = data[["Previous Day kWh", "Average Voltage V", "Average Current A"]]
 y = data["Actual Energy kWh"]
 
 split_index = int(len(X) * 0.80)
@@ -149,7 +143,8 @@ plt.show()
 print("\nGraphs saved successfully in the graphs folder.")
 print("Prediction results saved in the results folder.")
 
-print("\nElectricity Bill Calculator")
+print("\nEstimated Electricity Bill")
+print("Bill is calculated using project-defined tariff assumptions.")
 
 while True:
     try:
