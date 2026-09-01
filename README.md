@@ -62,7 +62,7 @@ The first day does not have a previous-day consumption value, so that row is rem
 
 
 
-I used \*\*Linear Regression\*\* for this project.
+\*\*Linear Regression\*\* is used for this project.
 
 
 
