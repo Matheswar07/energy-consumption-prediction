@@ -85,22 +85,17 @@ For a 30-day period, the model produced:
 
 ## Project Structure
 
-\```text
+\```
 energy-consumption-prediction/
-│
 ├── code/
-│   └── energy_prediction.py
-│
+│   └── energy_prediction.py          # Main script: training, prediction, bill calculator
 ├── data/
-│   └── energy_100_days_dataset.csv
-│
+│   └── energy_100_days_dataset.csv   # Raw 100-day household energy dataset
 ├── graphs/
-│   ├── actual_vs_predicted.png
-│   └── prediction_error.png
-│
+│   ├── actual_vs_predicted.png       # Actual vs predicted consumption plot
+│   └── prediction_error.png          # Prediction error plot
 ├── results/
-│   ├── model_metrics.txt
-│   └── prediction_results.csv
-│
+│   ├── model_metrics.txt             # MAE, RMSE, R², MAPE scores
+│   └── prediction_results.csv        # Test set predictions vs actual values
 └── README.md
 \```
